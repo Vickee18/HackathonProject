@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="19" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T11:08:32 IST" name="Suite" finished-at="2024-02-29T11:11:02 IST" duration-ms="150437">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T11:08:32 IST" name="Test" finished-at="2024-02-29T11:11:02 IST" duration-ms="150437">
+      <class name="testCases.TC_003_GiftCard">
+        <test-method signature="displayGiftPage()[pri:1, instance:testCases.TC_003_GiftCard@223191a6]" started-at="2024-02-29T11:10:19 IST" name="displayGiftPage" finished-at="2024-02-29T11:10:54 IST" duration-ms="34381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayGiftPage -->
+        <test-method signature="clickBirthday()[pri:2, instance:testCases.TC_003_GiftCard@223191a6]" started-at="2024-02-29T11:10:54 IST" name="clickBirthday" finished-at="2024-02-29T11:10:54 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBirthday -->
+        <test-method signature="enterAmount_Date()[pri:3, instance:testCases.TC_003_GiftCard@223191a6]" started-at="2024-02-29T11:10:55 IST" name="enterAmount_Date" finished-at="2024-02-29T11:10:56 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAmount_Date -->
+        <test-method signature="enterDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testCases.TC_003_GiftCard@223191a6]" started-at="2024-02-29T11:10:57 IST" name="enterDetails" data-provider="GiftCardData" finished-at="2024-02-29T11:10:59 IST" duration-ms="2000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dinesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dinesh183gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7171271790]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ganesh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ganesh183gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9071726542]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tamil Nau, Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[600078]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="mailValidation()[pri:5, instance:testCases.TC_003_GiftCard@223191a6]" started-at="2024-02-29T11:11:00 IST" name="mailValidation" finished-at="2024-02-29T11:11:00 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailValidation -->
+        <test-method signature="verifyValidEmail(java.lang.String,java.lang.String)[pri:6, instance:testCases.TC_003_GiftCard@223191a6]" started-at="2024-02-29T11:11:01 IST" name="verifyValidEmail" data-provider="crctData" finished-at="2024-02-29T11:11:02 IST" duration-ms="1010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dinesh183@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ganesh183@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidEmail -->
+      </class> <!-- testCases.TC_003_GiftCard -->
+      <class name="testCases.TC_001_SearchBookshelves">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_SearchBookshelves@10e31a9a]" started-at="2024-02-29T11:08:32 IST" name="setup" finished-at="2024-02-29T11:08:57 IST" duration-ms="24840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search(java.lang.String)[pri:1, instance:testCases.TC_001_SearchBookshelves@10e31a9a]" started-at="2024-02-29T11:09:00 IST" name="search" data-provider="search_data" finished-at="2024-02-29T11:09:45 IST" duration-ms="45030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bookshelves]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="titleValidation()[pri:2, instance:testCases.TC_001_SearchBookshelves@10e31a9a]" started-at="2024-02-29T11:09:46 IST" name="titleValidation" finished-at="2024-02-29T11:10:01 IST" duration-ms="15240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_SearchBookshelves@10e31a9a]" started-at="2024-02-29T11:11:02 IST" name="teardown" finished-at="2024-02-29T11:11:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_SearchBookshelves -->
+      <class name="testCases.TC_002_SelectItems">
+        <test-method signature="selectCategory()[pri:1, instance:testCases.TC_002_SelectItems@4ec4f3a0]" started-at="2024-02-29T11:10:02 IST" name="selectCategory" finished-at="2024-02-29T11:10:03 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method signature="select_price()[pri:2, instance:testCases.TC_002_SelectItems@4ec4f3a0]" started-at="2024-02-29T11:10:03 IST" name="select_price" finished-at="2024-02-29T11:10:04 IST" duration-ms="1398" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testCases.TC_002_SelectItems.select_price(TC_002_SelectItems.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_price -->
+        <test-method signature="clickStorageButton()[pri:3, instance:testCases.TC_002_SelectItems@4ec4f3a0]" started-at="2024-02-29T11:10:05 IST" name="clickStorageButton" finished-at="2024-02-29T11:10:07 IST" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickStorageButton -->
+        <test-method signature="select_filter()[pri:4, instance:testCases.TC_002_SelectItems@4ec4f3a0]" started-at="2024-02-29T11:10:08 IST" name="select_filter" finished-at="2024-02-29T11:10:08 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_filter -->
+        <test-method signature="print_data()[pri:5, instance:testCases.TC_002_SelectItems@4ec4f3a0]" started-at="2024-02-29T11:10:09 IST" name="print_data" finished-at="2024-02-29T11:10:14 IST" depends-on-methods="testCases.TC_002_SelectItems.select_filter" duration-ms="4966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_data -->
+        <test-method signature="displayNavBar_items()[pri:6, instance:testCases.TC_002_SelectItems@4ec4f3a0]" started-at="2024-02-29T11:10:14 IST" name="displayNavBar_items" finished-at="2024-02-29T11:10:14 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayNavBar_items -->
+        <test-method signature="printNavBar_items()[pri:7, instance:testCases.TC_002_SelectItems@4ec4f3a0]" started-at="2024-02-29T11:10:15 IST" name="printNavBar_items" finished-at="2024-02-29T11:10:19 IST" depends-on-methods="testCases.TC_002_SelectItems.displayNavBar_items" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printNavBar_items -->
+      </class> <!-- testCases.TC_002_SelectItems -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
